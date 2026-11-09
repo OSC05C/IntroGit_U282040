@@ -4,6 +4,9 @@ def greet(name):
  """Return a welcome message for the given name."""
  return f"Hola, {name}! Bienvenido a Git."
 
+def farewell(name):
+ """Return a goodbye message for the given name."""
+ return f"Goodbye, {name}! See you next commit."
 
 
 
@@ -11,3 +14,4 @@ def greet(name):
 # not when it is imported as a module from another file.
 if __name__ == "__main__":
  print(greet("Oscar")) # Call the greet function and print the result
+print(farewell("World"))
